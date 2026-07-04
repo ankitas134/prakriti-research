@@ -2,7 +2,7 @@
 
 A static research website presenting data analysis from the **AI in Ayurveda** study, comparing human and AI-generated Prakriti (Ayurvedic constitutional type) survey responses.
 
-🔗 **Live Site:** [your-username.github.io/prakriti-research](https://ankitas134.github.io/prakriti-research)  
+🔗 **Live Site:** [ankitas134.github.io/prakriti-research](https://ankitas134.github.io/prakriti-research)  
 🔗 **Main App Repo:** [github.com/ankitas134/Prakriti](https://github.com/ankitas134/Prakriti)
 
 ---
