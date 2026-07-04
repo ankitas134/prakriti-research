@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "total": 189,
+    "human_count": 61,
+    "ai_count": 128,
+    "human_avg_age": 22.4,
+    "ai_avg_age": 25.2
+  },
+  "dosha_dist": {
+    "human": {
+      "Vata": {
+        "count": 22,
+        "pct": 36.7
+      },
+      "Pitta": {
+        "count": 25,
+        "pct": 41.7
+      },
+      "Kapha": {
+        "count": 13,
+        "pct": 21.7
+      }
+    },
+    "ai": {
+      "Vata": {
+        "count": 39,
+        "pct": 33.3
+      },
+      "Pitta": {
+        "count": 39,
+        "pct": 33.3
+      },
+      "Kapha": {
+        "count": 39,
+        "pct": 33.3
+      }
+    }
+  },
+  "gender_dosha": {
+    "human": {
+      "Male": {
+        "Vata": {
+          "count": 8,
+          "pct": 27.6
+        },
+        "Pitta": {
+          "count": 11,
+          "pct": 37.9
+        },
+        "Kapha": {
+          "count": 10,
+          "pct": 34.5
+        }
+      },
+      "Female": {
+        "Vata": {
+          "count": 13,
+          "pct": 43.3
+        },
+        "Pitta": {
+          "count": 14,
+          "pct": 46.7
+        },
+        "Kapha": {
+          "count": 3,
+          "pct": 10.0
+        }
+      }
+    },
+    "ai": {
+      "Male": {
+        "Vata": {
+          "count": 19,
+          "pct": 32.8
+        },
+        "Pitta": {
+          "count": 21,
+          "pct": 36.2
+        },
+        "Kapha": {
+          "count": 18,
+          "pct": 31.0
+        }
+      },
+      "Female": {
+        "Vata": {
+          "count": 20,
+          "pct": 33.9
+        },
+        "Pitta": {
+          "count": 18,
+          "pct": 30.5
+        },
+        "Kapha": {
+          "count": 21,
+          "pct": 35.6
+        }
+      }
+    }
+  },
+  "age_dosha": {
+    "human": {
+      "19-25": {
+        "Pitta": 20,
+        "Vata": 15,
+        "Kapha": 11
+      },
+      "36+": {
+        "Pitta": 1,
+        "Vata": 2,
+        "Kapha": 1
+      },
+      "\u226418": {
+        "Vata": 3,
+        "Pitta": 2
+      },
+      "26-35": {
+        "Kapha": 1,
+        "Pitta": 2,
+        "Vata": 2
+      }
+    },
+    "ai": {
+      "19-25": {
+        "Pitta": 30,
+        "Kapha": 3,
+        "Vata": 34
+      },
+      "26-35": {
+        "Pitta": 9,
+        "Kapha": 29
+      },
+      "\u226418": {
+        "Vata": 5
+      },
+      "36+": {
+        "Kapha": 7
+      }
+    }
+  },
+  "discordance": {
+    "total_with_doctor": 10,
+    "agreement_rate": 90.0,
+    "pairs": [
+      {
+        "told": "Pitta",
+        "self": "Pitta",
+        "match": true
+      },
+      {
+        "told": "Pitta",
+        "self": "Pitta",
+        "match": true
+      },
+      {
+        "told": "Vata",
+        "self": "Vata",
+        "match": true
+      },
+      {
+        "told": "Pitta",
+        "self": "Pitta",
+        "match": true
+      },
+      {
+        "told": "Pitta",
+        "self": "Pitta",
+        "match": true
+      },
+      {
+        "told": "Kapha",
+        "self": "Vata",
+        "match": false
+      },
+      {
+        "told": "Kapha",
+        "self": "Kapha",
+        "match": true
+      },
+      {
+        "told": "Pitta",
+        "self": "Pitta",
+        "match": true
+      },
+      {
+        "told": "Vata",
+        "self": "Vata",
+        "match": true
+      },
+      {
+        "told": "Pitta",
+        "self": "Pitta",
+        "match": true
+      }
+    ]
+  },
+  "divergence": {
+    "Q1_frame": {
+      "label": "1.What is your body frame?",
+      "human": {
+        "Medium / Well\u2011built": 68.9,
+        "Thin / Lean": 23.0,
+        "Broad / Heavy\u2011set": 8.2
+      },
+      "ai": {
+        "Medium / Well-built": 35.9,
+        "Thin / Lean": 32.5,
+        "Broad / Heavy-set": 31.6
+      }
+    },
+    "Q3_skin": {
+      "label": "3.Your skin type",
+      "human": {
+        "Soft, oily, pale": 39.3,
+        "Sensitive, warm, prone to acne": 32.8,
+        "Dry, rough": 27.9
+      },
+      "ai": {
+        "Sensitive, warm, prone to acne": 33.3,
+        "Soft, oily, pale": 33.3,
+        "Dry, rough": 33.3
+      }
+    },
+    "Q5_sweat": {
+      "label": "5.Sweating pattern",
+      "human": {
+        "Moderate sweating": 52.5,
+        "Minimal sweating": 24.6,
+        "Profuse, excessive sweating": 23.0
+      },
+      "ai": {
+        "Moderate sweating": 40.2,
+        "Minimal sweating": 36.8,
+        "Profuse, excessive sweating": 23.1
+      }
+    },
+    "Q10_mind": {
+      "label": "10.Mind activity level",
+      "human": {
+        "Focused, sharp, sometimes impatient": 47.5,
+        "Very active, racing thoughts": 37.7,
+        "Calm, stable, slow decision\u2011making": 14.8
+      },
+      "ai": {
+        "Focused, sharp, sometimes impatient": 33.3,
+        "Calm, stable, slow decision-making": 33.3,
+        "Very active, racing thoughts": 33.3
+      }
+    },
+    "Q11_stress": {
+      "label": "11. Stress response",
+      "human": {
+        "Anxiety, nervousness": 42.6,
+        "Irritability, anger": 36.1,
+        "Withdrawal, laziness": 21.3
+      },
+      "ai": {
+        "Irritability, anger": 33.3,
+        "Withdrawal, laziness": 33.3,
+        "Anxiety, nervousness": 33.3
+      }
+    },
+    "Q12_sleep": {
+      "label": "12.Sleep pattern",
+      "human": {
+        "Moderate, adequate sleep": 50.8,
+        "Light, interrupted sleep": 26.2,
+        "Deep, long sleep": 23.0
+      },
+      "ai": {
+        "Light, interrupted sleep": 35.9,
+        "Deep, long sleep": 33.3,
+        "Moderate, adequate sleep": 30.8
+      }
+    }
+  },
+  "symptom_heatmap": {
+    "human": {
+      "Vata": {
+        "Vata": 20,
+        "Pitta": 1,
+        "Kapha": 1
+      },
+      "Pitta": {
+        "Vata": 1,
+        "Pitta": 23,
+        "Kapha": 1
+      },
+      "Kapha": {
+        "Vata": 1,
+        "Pitta": 1,
+        "Kapha": 11
+      }
+    },
+    "ai": {
+      "Vata": {
+        "Vata": 39,
+        "Pitta": 0,
+        "Kapha": 0
+      },
+      "Pitta": {
+        "Vata": 0,
+        "Pitta": 39,
+        "Kapha": 0
+      },
+      "Kapha": {
+        "Vata": 0,
+        "Pitta": 0,
+        "Kapha": 39
+      }
+    }
+  },
+  "q16_dist": {
+    "Yes(Pitta)": 6,
+    "No": 46,
+    "Yes(Vata)": 2,
+    "Maybe": 5,
+    "Yes(Kapha)": 2
+  },
+  "ml": {
+    "cv_accuracy": 83.0,
+    "cv_std": 5.8,
+    "cv_scores": [
+      83.3,
+      86.1,
+      91.4,
+      74.3,
+      80.0
+    ],
+    "confusion_matrix": [
+      [
+        52,
+        0,
+        0
+      ],
+      [
+        0,
+        64,
+        0
+      ],
+      [
+        0,
+        0,
+        61
+      ]
+    ],
+    "classes": [
+      "Kapha",
+      "Pitta",
+      "Vata"
+    ],
+    "feature_importances": [
+      {
+        "label": "Body Frame",
+        "value": 13.39
+      },
+      {
+        "label": "Stress Response",
+        "value": 12.99
+      },
+      {
+        "label": "Mind Activity",
+        "value": 12.12
+      },
+      {
+        "label": "Skin Type",
+        "value": 9.91
+      },
+      {
+        "label": "Body Temperature",
+        "value": 6.93
+      },
+      {
+        "label": "Bowel Movements",
+        "value": 6.31
+      },
+      {
+        "label": "Digestion",
+        "value": 6.21
+      },
+      {
+        "label": "Hair Texture",
+        "value": 6.1
+      },
+      {
+        "label": "Appetite",
+        "value": 6.05
+      },
+      {
+        "label": "Sleep Pattern",
+        "value": 5.47
+      },
+      {
+        "label": "Speech Style",
+        "value": 3.73
+      },
+      {
+        "label": "Sweating Pattern",
+        "value": 3.11
+      },
+      {
+        "label": "Climate Preference",
+        "value": 2.93
+      },
+      {
+        "label": "Weight Tendency",
+        "value": 2.6
+      },
+      {
+        "label": "Taste Preference",
+        "value": 2.15
+      }
+    ],
+    "per_class": {
+      "Kapha": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1": 100.0
+      },
+      "Pitta": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1": 100.0
+      },
+      "Vata": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1": 100.0
+      }
+    }
+  }
+}
